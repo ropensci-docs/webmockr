@@ -1,0 +1,12 @@
+{
+  "commit": {
+    "commit": "d366de7c03a4ec1f2edb863dc855a067a9d4e921",
+    "author": "Scott Chamberlain <sckott@fastmail.com>",
+    "time": "2021-03-13 20:20:07",
+    "files": 1,
+    "merge": false,
+    "message": "gh actions: run on windows R-devel\n"
+  },
+  "remote": "https://github.com/ropensci/webmockr",
+  "pkg": "webmockr"
+}
