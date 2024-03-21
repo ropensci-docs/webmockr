@@ -1,0 +1,12 @@
+{
+  "commit": {
+    "commit": "70e94f493450d1e969ddb102f0362c840c05fcbd",
+    "author": "Scott Chamberlain <sckott@fastmail.com>",
+    "time": "2023-05-24 17:21:10",
+    "files": 27,
+    "merge": false,
+    "message": "change all httpbin urls to hb.opencpu.org\n"
+  },
+  "repo": "https://github.com/ropensci/webmockr",
+  "pkg": "webmockr"
+}
