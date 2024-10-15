@@ -1,0 +1,12 @@
+{
+  "commit": {
+    "commit": "6e4a33f40f4034e126437d86b363bc40fdff6659",
+    "author": "Scott Chamberlain <sckott@fastmail.com>",
+    "time": "2024-10-15 18:17:38",
+    "files": 2,
+    "merge": false,
+    "message": "go back to simplify = FALSE for fromJSON calls in BodyPattern\n"
+  },
+  "repo": "https://github.com/ropensci/webmockr",
+  "pkg": "webmockr"
+}
