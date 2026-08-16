@@ -1,0 +1,13 @@
+{
+  "commit": {
+    "commit": "128d87b721c1e03bcc031702f2d1692838507f83",
+    "author": "Scott Chamberlain <sckott@fastmail.com>",
+    "time": "2026-08-16T05:00:07Z",
+    "files": 1,
+    "merge": false,
+    "message": "fix articles navbar string\n"
+  },
+  "repo": "https://github.com/ropensci/webmockr",
+  "pkg": "webmockr",
+  "time": "2026-08-16T15:59:36Z"
+}
