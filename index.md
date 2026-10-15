@@ -1,0 +1,64 @@
+# webmockr
+
+[![cran
+checks](https://badges.cranchecks.info/worst/webmockr.svg)](https://CRAN.R-project.org/package=webmockr)
+[![Project Status: Active - The project has reached a stable, usable
+state and is being actively
+developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
+[![R-CMD-check](https://github.com/ropensci/webmockr/workflows/R-CMD-check/badge.svg)](https://github.com/ropensci/webmockr/actions/)
+[![codecov](https://codecov.io/gh/ropensci/webmockr/branch/main/graph/badge.svg?token=1zWlEQbaEh)](https://app.codecov.io/gh/ropensci/webmockr)
+[![rstudio mirror
+downloads](https://cranlogs.r-pkg.org/badges/webmockr)](https://github.com/r-hub/cranlogs.app)
+[![cran
+version](https://www.r-pkg.org/badges/version/webmockr)](https://cran.r-project.org/package=webmockr)
+
+R library for stubbing and setting expectations on HTTP requests.
+
+Port of the Ruby gem [webmock](https://github.com/bblimke/webmock)
+
+## Features
+
+- Stubbing HTTP requests at low http client lib level
+- Setting and verifying expectations on HTTP requests
+- Matching requests based on method, URI, headers and body
+- Can be used for testing or outside of a testing context
+- Supports async http request mocking with `crul` only
+
+## Supported HTTP libraries
+
+- [crul](https://github.com/ropensci/crul)
+- [httr](https://github.com/r-lib/httr)
+- [httr2](https://github.com/r-lib/httr2)
+
+## Install
+
+from cran
+
+``` r
+
+install.packages("webmockr")
+```
+
+Dev version
+
+``` r
+
+# install.packages("pak")
+pak::pak("ropensci/webmockr")
+```
+
+## Contributors
+
+- [Scott Chamberlain](https://github.com/sckott)
+- [Aaron Wolen](https://github.com/aaronwolen)
+
+## Meta
+
+- Please [report any issues or
+  bugs](https://github.com/ropensci/webmockr/issues).
+- License: MIT
+- Get citation information for `webmockr` in R doing
+  `citation(package = 'webmockr')`
+- Please note that this package is released with a [Contributor Code of
+  Conduct](https://ropensci.org/code-of-conduct/). By contributing to
+  this project, you agree to abide by its terms.
